@@ -1,0 +1,31 @@
+.video-card{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(187, 187, 187, 0.1);
+    transition: all .3s ease-in-out;
+}
+
+.video-card:hover{
+    box-shadow: 0 0 15px rgba(26, 26, 26, 0.1);
+}
+
+.video-description{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px!important;
+}
+.video-description:hover{
+    text-decoration: underline;
+}
+
+.video-thumbnail{
+    width: 100%;
+    min-height: 20px;
+    border-radius: 10px;
+    background-color: black;
+    margin-bottom: 10px;
+    padding: 20px 0 !important;
+    overflow: hidden;
+}
