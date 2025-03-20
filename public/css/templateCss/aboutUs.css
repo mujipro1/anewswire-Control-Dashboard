@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Navbar */
+.navbar {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links .active {
+    border-bottom: 2px solid white;
+}
+
+/* Header */
+.about-header {
+    background: url('https://source.unsplash.com/1600x600/?technology,news') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.about-header h1 {
+    font-size: 48px;
+}
+
+.about-header p {
+    font-size: 18px;
+}
+
+/* About Content */
+.about-content {
+    background: white;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-text {
+    margin-bottom: 30px;
+}
+
+.about-text h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-text ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.about-text ul i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 50px;
+}

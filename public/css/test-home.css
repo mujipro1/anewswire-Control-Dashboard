@@ -1,0 +1,32 @@
+.home-card{
+    background-color: rgba(235, 230, 235, 0.11);
+    height: 240px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.home-card:hover{
+    background-color:rgba(235, 230, 235, 0.141) ;
+}
+
+.home-row{
+    margin:0;
+    height: 70vh;
+}
+
+@media (max-width: 768px) {
+    .home-card{
+        height: 130px;
+    }
+    .home-row{
+        height: 30vh;
+    }
+}

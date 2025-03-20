@@ -1,0 +1,114 @@
+/*
+Custom CSS for TemplateMo 561 Purple Buzz
+
+https://templatemo.com/tm-561-purple-buzz
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --main: #710a97;
+}
+.navbar{
+    z-index: 21;
+}
+
+.my-color{
+    color: var(--main);
+    transition: all 0.3s ease-in-out;
+}
+
+.typo-space-line::after, .typo-space-line-center::after {
+    content: "";
+    width: 150px;
+    display: block;
+    position: absolute;
+    border-bottom: 5px solid var(--main);
+    padding-top: .5em;
+}
+
+.nav-link:hover{
+    color: var(--main)!important;
+}
+
+.spec-text{
+    line-height: 90%;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+.home-bannere{
+    height: 53vw;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-secondary{
+    background-color: #e0e2e5!important;
+    color: rgb(0, 0, 0);
+}
+
+.bg-custom{
+    background-color: #550372;
+}
+
+.cardx{
+    background-color: rgb(238, 242, 244);
+    border-radius: 15px;
+    min-height: 250px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardx:hover{
+    background-color: var(--main);
+    color: white;
+}
+
+.cardx:hover .my-color{
+    color: white;
+}
+
+.cardx:hover .service-icon{
+    color: white;
+}
+
+.service-icon{
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+    color: var(--main);
+    transition: all 0.3s ease-in-out;
+}
+
+.link-active{
+    border-bottom: 2px solid var(--main);
+}
+.text-justify{
+    text-align: justify;
+}
+.home-bannere-pic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: scale(1.1);
+    filter: blur(2px);
+}
+
+.home-bannere-pic img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

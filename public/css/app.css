@@ -1,3 +1,160 @@
-:root{
-    --aff : #d81953;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+/* Root Variables */
+:root {
+    --aff: #eeeee7;
+}
+
+/* General Styles */
+body {
+    background-color: var(--aff) !important;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Utility Classes */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Online Indicator */
+.circle {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 0 10px;
+}
+
+/* Data Card (Container for Articles) */
+.data-card {
+    background-color: rgba(255, 255, 255, 0.068);
+    border: 1px solid rgba(255, 255, 255, 0.214);
+    border-radius: 15px;
+    min-height: 300px;
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.btn-signin{
+    background-color: #ffffff;
+    color: #42036ae0;
+    border: 1px solid #42036ae0;
+    border-radius: 100px;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-signin:hover{
+    background-color: #42036ae0;
+    color: #ffffff;
+}
+
+/* Individual Article Cards */
+.items-card {
+    border: 1px solid #cccccc69;
+    border-radius: 10px;
+    background-color: rgba(212, 201, 234, 0.168);
+    margin: 20px 0;
+    cursor: pointer;
+    padding: 20px 30px;
+    min-height: 300px;
+    transition: 0.3s;
+}
+
+.items-card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.items-card:hover .title-article {
+    text-decoration: underline;
+}
+
+/* Title Styling */
+.title-article {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+/* Category Badges */
+.cat-card {
+    display: inline-block;
+    padding: 8px 20px;
+    background:linear-gradient(-45deg,#c992ebe0, rgba(250, 249, 255, 0.658), #f2e1fde9);
+    border-radius: 8px;
+    color: black;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Modal Image */
+.modal-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img-cont{
+    object-fit: contain;
+    overflow: hidden;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.img-fit{
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+    transform: scale(1.1);
+}
+
+a{
+    color: rgb(116, 60, 0);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .data-card {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .items-card {
+        padding: 15px 20px;
+        margin: 15px 0;
+    }
+
+    .title-article {
+        font-size: 18px;
+    }
+
+    .cat-card {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+
+    .modal-img {
+        max-height: 250px;
+        transform: scale(1);
+
+    }
+    .img-cont{
+        height: fit-content;
+        margin-bottom: 20px;
+    }
 }

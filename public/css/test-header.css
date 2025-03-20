@@ -1,0 +1,39 @@
+.header-card{
+    background-color: rgba(255, 255, 255, 0.088);
+    border: 1px solid rgba(255, 255, 255, 0.196);
+    border-radius: 15px;
+    min-height: 100px;
+    width: 100%;
+    color: white;
+    padding: 20px 25px;
+    box-shadow: 0 0 10px rgba(46, 46, 46, 0.5);
+}
+
+.preview-div{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.web-card {
+    display: inline-block;
+    padding: 10px 15px;
+    color: black;
+    background:linear-gradient(-45deg,#c992ebe0, rgba(250, 249, 255, 0.658), #f2e1fde9);
+    border-radius: 5px;
+    max-width: 100%; /* Ensures it doesn't grow beyond content */
+    white-space: nowrap; /* Prevents text from wrapping inside */
+}
+.row-web-cards {
+    display: flex;
+    flex-wrap: wrap; /* Ensures overflow elements move to the next line */
+    gap: 8px; /* Adds spacing between cards */
+}
+
+@media (max-width:768px) {
+    .preview-cont{
+        display: none;
+    }
+}

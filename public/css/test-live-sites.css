@@ -1,0 +1,63 @@
+.add-sites-button{
+    position: absolute;
+    right:1.3%;
+    top: 10px;
+}
+
+.add-sites-parent{
+    position: relative;
+}
+
+.website-card{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.168);
+    border: 1px solid #ffffff3b;
+    border-radius: 10px;
+    min-height: 100px;
+    color: white;
+}
+
+
+.no-white-input{
+    background-color: rgba(255, 255, 255, 0.11);    
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.no-white-input::placeholder{
+    color: white;
+}
+
+
+.no-white-input:focus{
+    background-color: rgba(255, 255, 255, 0.11);    
+    color: white;
+    box-shadow: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.568);
+}
+
+
+.no-white-input:disabled{
+    background-color: rgba(255, 255, 255, 0.248);    
+    color: rgba(255, 255, 255, 0.592);
+    box-shadow: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.568);
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    .add-sites-button{
+        position:  relative;
+        top: 0;
+        right: 0;
+    }
+    .add-sites-parent{
+        align-items: center;        
+        justify-content: center;
+    } 
+
+}
