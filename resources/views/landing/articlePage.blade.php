@@ -2,58 +2,53 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/quill/dist/quill.snow.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
-
+    <title>Purple Buzz HTML Template with Bootstrap 5 Beta 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link href="{{asset('css/templateCss/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/templateCss/boxicon.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/templateCss/templatemo.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="{{ asset('css/test-global.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet ">
-
-    <title>Control Dashboard</title>
+    <link href="{{asset('css/templateCss/custom.css')}}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
 <nav class="navbar navbar-expand-lg bg-transparent w-100" style="position:absolute;">
-        <div class="container d-flex justify-content-between col-10 align-items-center">
-            <a class="navbar-brand h1 text-white" href="/">
-                <span class="mx-4 h4">NewsWire Networks</span>
-            </a>
+    <div class="container d-flex justify-content-bw col-10 align-items-center">
+        <a class="d-flex justify-content-center  h1 text-white" href="#" style="text-decoration: none;">
+            <span class="mx-4 text-center h4">NewsWire Networks</span>
+        </a>
 
-            <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbar-toggler-success">
-                <div class="ms-auto">
-                    <ul class="nav navbar-nav d-flex justify-content-end text-center">
-                        <li class="nav-item">
-                            <a class="nav-link text-white mx-3" href="{{route('home')}}">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white mx-3" href="">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  link-active text-white mx-3" href="{{route('releases')}}">Articles</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white mx-3" href="{{route('contact')}}">Contact</a>
-                        </li>
-                    </ul>
+        <div class="">
+            <div class="nav-top text-center">
+                <div class="nav-item">
+                    <a class="nav-link text-white" href="{{route('home')}}">Home</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link text-white" href="{{route('about')}}">About</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link text-white link-active" href="{{route('releases')}}">Articles</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link text-white" href="{{route('contact')}}">Contact</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link text-white" href="{{route('admin')}}">SignIn</a>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
+
     <div class="main-wrapper pb-5" style="minheight: 100vh, height: 100%, margin:0;">
-       
         <div class="container pt-5">
-
-        
-
             <div class="d-flex pt-4 justify-content-center">
                 <div class="col-md-11 mt-1">
 

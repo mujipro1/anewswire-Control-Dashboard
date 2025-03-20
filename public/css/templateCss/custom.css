@@ -52,11 +52,24 @@ body{
     overflow: hidden;
 }
 
+.nav-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
 .bg-secondary{
     background-color: #e0e2e5!important;
     color: rgb(0, 0, 0);
 }
 
+.justify-content-bw{
+    justify-content: space-between;
+}
 .bg-custom{
     background-color: #550372;
 }
@@ -65,6 +78,7 @@ body{
     background-color: rgb(238, 242, 244);
     border-radius: 15px;
     min-height: 250px;
+    height: 280px;
     cursor:pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -106,9 +120,35 @@ body{
     transform: scale(1.1);
     filter: blur(2px);
 }
-
+.row{
+    margin:0;
+}
 .home-bannere-pic img{
     width: 100%;
     height: auto;
     object-fit: cover;
 }
+
+.article-top-pad{
+    margin-top: 10px;
+}
+    @media (max-width:992px) {
+        
+        .article-top-pad{
+            margin-top: 50px;
+        }
+        .home-bannere{
+            height: 100vh;
+        }
+        .home-bannere-pic{
+            width: auto;
+            height: 100%;
+        }
+        .home-bannere-pic img{
+            width: auto;
+            height: 100%;
+        }
+        .justify-content-bw{
+            justify-content: center!important;
+        }
+    }

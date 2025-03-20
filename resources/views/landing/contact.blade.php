@@ -17,41 +17,33 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-transparent w-100" style="position:absolute;">
-        <div class="container d-flex justify-content-between col-10 align-items-center">
-            <a class="navbar-brand h1 text-dark" href="/">
-                <span class="mx-4 h4">NewsWire Networks</span>
-            </a>
+<nav class="navbar navbar-expand-lg bg-transparent w-100" style="position:absolute;">
+    <div class="container d-flex justify-content-bw col-10 align-items-center">
+        <a class="d-flex justify-content-center  h1 text-dark" href="#" style="text-decoration: none;">
+            <span class="mx-4 text-center h4">NewsWire Networks</span>
+        </a>
 
-            <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbar-toggler-success">
-                <div class="ms-auto">
-                    <ul class="nav navbar-nav d-flex justify-content-end text-center">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark mx-3" href="{{route('home')}}">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark mx-3" href="{{route('about')}}">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark mx-3" href="{{route('releases')}}">Articles</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link-active  text-dark mx-3" href="">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-dark mx-3" href="{{route('admin')}}">SignIn</a>
-                    </li>
-                    </ul>
+        <div class="">
+            <div class="nav-top text-center">
+                <div class="nav-item">
+                    <a class="nav-link text-dark" href="{{route('home')}}">Home</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link text-dark" href="{{route('about')}}">About</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link text-dark" href="{{route('releases')}}">Articles</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link text-dark link-active" href="{{route('contact')}}">Contact</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link text-dark" href="{{route('admin')}}">SignIn</a>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
 
 

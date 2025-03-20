@@ -2,12 +2,12 @@
     <h6>Control Dashboard</h6>
 </div>
 <div class="d-flex justify-content-center align-items-center navbar">
-    <div class="nav-item" onclick = "handleNavClick(1)">Home</div>
-    <div class="nav-item" onclick = "handleNavClick(6)">Dashboard</div>
-    <div class="nav-item" onclick = "handleNavClick(2)">RSS Data</div>
-    <div class="nav-item" onclick = "handleNavClick(3)">Websites</div>
-    <div class="nav-item" onclick = "handleNavClick(4)">Headers</div>
-    <div class="nav-item" onclick = "handleNavClick(5)">Profile</div>
+    <div class="nav-item mt-2" onclick = "handleNavClick(1)">Home</div>
+    <div class="nav-item mt-2" onclick = "handleNavClick(6)">Dashboard</div>
+    <div class="nav-item mt-2" onclick = "handleNavClick(2)">RSS Data</div>
+    <div class="nav-item mt-2" onclick = "handleNavClick(3)">Websites</div>
+    <div class="nav-item mt-2" onclick = "handleNavClick(4)">Headers</div>
+    <div class="nav-item mt-2" onclick = "handleNavClick(5)">Profile</div>
 </div>
 
 
